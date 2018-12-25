@@ -1,0 +1,2 @@
+tensorboard --logdir=census_keras/logs
+ python -m trainer.task --train-files adult.data.csv --eval-files adult.test.csv  --job-dir $JOB_DIR  --train-steps $TRAIN_STEPS
