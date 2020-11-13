@@ -19,7 +19,7 @@ VERSION = '1.0'
 
 REQUIRED_PACKAGES = ['tensorflow-transform==0.1.10',
                      'protobuf==3.6.0',
-                     'tensorflow==1.2.0']
+                     'tensorflow==2.3.1']
 
 if __name__ == '__main__':
   setuptools.setup(name=NAME,
